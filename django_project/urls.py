@@ -5,7 +5,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 urlpatterns = [
     # Django admin
-    path("admin/", admin.site.urls),
+    path("definitely-not-admin/", admin.site.urls),
     # User management
     path("accounts/", include("allauth.urls")),  # new
     # Local apps
